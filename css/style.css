@@ -1,4 +1,4 @@
-/* basic styles*/
+/* basic*/
 
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-/* navigation styles */
+/* navigation */
 
 header {
   position: fixed;
@@ -66,7 +66,7 @@ nav ul li:first-child {
 }
 
 
-/*main styles*/
+/*main*/
 
 .content {
   max-width: auto;
@@ -74,22 +74,25 @@ nav ul li:first-child {
   padding: 30px;
 }
 
+/*hero*/
+
 .hero {
   display: flex;
   height: 50%;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .hero p {
+  margin-top: 15%;
   font-size: 70px;
-  margin-left: 5%;
   text-align: center;
   max-width: 40%;
 }
 .hero a {
   height: 20%;
-  margin-top: 25%;
+  width: auto;
+  margin-top: 20%;
   padding: 20px 40px;
   background-color: rgb(44, 44, 231);
   color: white;
@@ -120,8 +123,10 @@ nav ul li:first-child {
   border: 5px solid black;
 }
 
+/*cards*/
+
 .card {
-  height: 100vh;
+  height: 200%;
   padding: 20px;
   margin: 5%;
 }
@@ -129,8 +134,8 @@ nav ul li:first-child {
 .card h2 {
   display:flex;
   justify-content: center;
-  font-size: 50px;
-  margin-top: 7%;
+  font-size: 70px;
+  margin-top: 10%;
 }
 
 #about {
@@ -140,12 +145,14 @@ nav ul li:first-child {
 }
 
 #projects { 
-  background-color:orange;
+  background-color: orange;
 }
 
 #contact {
   background-color: rgb(151, 64, 147);
 }
+
+/*contact links*/
 
 .card ul {
   text-align: center;
@@ -161,4 +168,26 @@ nav ul li:first-child {
 
 .card li a:hover {
   text-shadow: 1px 1px 1px blue;
+}
+
+/*projects section*/
+
+.project-boxes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  width: 25%;
+  margin: 0 2% 2% 0; 
+}
+
+.project-box:first-child {
+  width: 40%;
+}
+
+.project-img {
+  width: 100%;
 }
