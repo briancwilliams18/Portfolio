@@ -191,3 +191,62 @@ nav ul li:first-child {
 .project-img {
   width: 100%;
 }
+
+/*media quries*/
+
+/* iPad or tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+  
+  /* Adjust font sizes */
+  nav ul li {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 50px;
+  }
+
+  .hero a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .card h2 {
+    font-size: 50px;
+  }
+
+  .card ul {
+    font-size: 30px;
+  }
+}
+
+/*phone*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) {
+  
+  /* Adjust font sizes */
+  nav ul li {
+    font-size: 16px;
+  }
+
+  .hero p {
+    font-size: 40px;
+    max-width: 60%;
+  }
+
+  .hero a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .card h2 {
+    font-size: 40px;
+  }
+
+  .card ul {
+    font-size: 24px;
+  }
+}
