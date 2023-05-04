@@ -28,10 +28,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 
-![website screenshot](C:\Users\Princ\bootcamp\Homework\Portfolio\assets\Screenshot 2023-05-04 180657.png)
+![website screenshot](https://github.com/briancwilliams18/Portfolio/blob/6149fc96cbaed884c00d28e67ea616096e803c3f/assets/Screenshot%202023-05-04%20180657.png)
 
-![website screenshot](C:\Users\Princ\bootcamp\Homework\Portfolio\assets\Screenshot 2023-05-04 180712.png)
+![website screenshot](https://github.com/briancwilliams18/Portfolio/blob/6149fc96cbaed884c00d28e67ea616096e803c3f/assets/Screenshot%202023-05-04%20180712.png)
 
-![website screenshot](C:\Users\Princ\bootcamp\Homework\Portfolio\assets\Screenshot 2023-05-04 180724.png)
+![website screenshot](https://github.com/briancwilliams18/Portfolio/blob/6149fc96cbaed884c00d28e67ea616096e803c3f/assets/Screenshot%202023-05-04%20180724.png)
 
-![website screenshot](C:\Users\Princ\bootcamp\Homework\Portfolio\assets\Screenshot 2023-05-04 180736.png)
+![website screenshot](https://github.com/briancwilliams18/Portfolio/blob/6149fc96cbaed884c00d28e67ea616096e803c3f/assets/Screenshot%202023-05-04%20180736.png)
