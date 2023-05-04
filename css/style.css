@@ -24,8 +24,11 @@ img {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
+}
+a:hover {
+  text-shadow: 1px 1px 1px blue;
 }
 
 /* Layout styles */
@@ -80,8 +83,9 @@ nav a {
   padding: 20px;
   font: bold 30px cursive;
   text-decoration: none;
+  text-underline-offset: 10px;
 }
 
 nav a:hover {
-  box-shadow: 0 0 0 5px black;
+  text-decoration: underline;
 }
