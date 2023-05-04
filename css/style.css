@@ -16,10 +16,32 @@ h1 {
   color: black;
 }
 
-img {
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.hero p {
+  font-size: 70px;
+  margin-left: 5%;
+  text-align: center;
+  max-width: 40%;
+}
+
+.profile {
   max-width: 500px;
   height: auto;
-  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 50px;
   border: 5px solid black;
 }
 
@@ -27,14 +49,11 @@ a {
   text-decoration: underline;
   color: inherit;
 }
-a:hover {
-  text-shadow: 1px 1px 1px blue;
-}
 
-/* Layout styles */
+/* section styles */
 
 .content {
-  max-width: 960px;
+  max-width: auto;
   margin: 0 auto;
   padding: 30px;
 }
@@ -46,19 +65,11 @@ a:hover {
   border-radius: 5px;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
+.card a:hover {
+  text-shadow: 1px 1px 1px blue;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  margin-right: 20px;
-}
-
-/* Navigation styles */
+/* navigation styles */
 
 nav {
   display: flex;
@@ -88,4 +99,5 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+  color: black;
 }
